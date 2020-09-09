@@ -1,0 +1,22 @@
+<html>
+    <head>
+        <title>NumberFuck</title>
+        <link rel="stylesheet" href="stylesheet.css">
+    </head>
+    <body>
+        <div class="numbers">
+            <span class="label">s(t) = <span id="score" class="number">1</span></span>
+            <span class="label">t = <span id="time" class="number">0</span></span>
+            <span class="label">s(t + 1) = <span id="formula" class="number">s(t) + 1</span></span>
+        </div>
+
+        <div class="upgrades">
+            <div> <button onclick="increaseFormulaValue()">Increase formula value</button> <span id="upgradeCost1">10</span> </div>
+            <div> <button onclick="upgradeFormulaType()">Upgrade formula type</button> <span id="upgradeCost2">1000</span> </div>
+        </div>
+
+        <script src="js/ExpantaNum.js"></script>
+        <script src="js/functions.js"></script>
+        <script src="js/main.js"></script>
+    </body>
+</html>

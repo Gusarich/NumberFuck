@@ -1,0 +1,21 @@
+.number {
+    display: inline-block;
+}
+
+.label {
+    display: block;
+    font-size: 21px;
+}
+
+.upgrades {
+    margin-top: 40px;
+}
+
+.upgrades * {
+    display: inline-block;
+}
+
+.upgrades div {
+    display: block;
+    margin-top: 10px;
+}
