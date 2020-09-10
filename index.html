@@ -10,9 +10,18 @@
             <span class="label">s(t + 1) = <span id="formula" class="number">s(t) + 1</span></span>
         </div>
 
-        <div class="upgrades">
+        <div class="ddiv upgrades">
             <div> <button onclick="increaseFormulaValue()">Increase formula value</button> <span id="upgradeCost1">10</span> </div>
             <div> <button onclick="upgradeFormulaType()">Upgrade formula type</button> <span id="upgradeCost2">1000</span> </div>
+        </div>
+
+        <div class="ddiv automations">
+            <div> <button onclick="upgradeFirstAutomation()">Formula increaser automation</button> <span id="automationCost1">e2e2</span> </div>
+        </div>
+
+        <div class="ddiv prestiges">
+            <span class="label">Speed points: <span id="speedPoints" class="number">0</span></span>
+            <div> <button onclick="firstPrestige()">Reset formula</button> <span id="firstPrestigeReward">to get 0</span> Speed points</div>
         </div>
 
         <script src="js/ExpantaNum.js"></script>

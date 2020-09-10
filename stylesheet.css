@@ -7,15 +7,15 @@
     font-size: 21px;
 }
 
-.upgrades {
+.ddiv {
     margin-top: 40px;
 }
 
-.upgrades * {
+.ddiv * {
     display: inline-block;
 }
 
-.upgrades div {
+.ddiv div {
     display: block;
     margin-top: 10px;
 }
