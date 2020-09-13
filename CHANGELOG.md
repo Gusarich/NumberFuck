@@ -11,3 +11,6 @@ Added formula upgrading system
 
 **V 0.04**
 Added prestiging system
+
+**V 0.05**
+Added bulk buying

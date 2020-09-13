@@ -1,4 +1,4 @@
-var score = new ExpantaNum('1');
+var score = new ExpantaNum('0');
 var time = new ExpantaNum('0');
 var points = {
     speed: new ExpantaNum('0')
